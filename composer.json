@@ -1,0 +1,23 @@
+{
+    "name": "timoshenko/cep",
+    "description": "Consulta de cep online",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "timoshenko67",
+            "email": "lucasatx99@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "timoshenko\\Cep\\": "src/"
+        }
+    }
+}
